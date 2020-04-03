@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>test</title>
+    <style type="text/css">
+        .flex-container {
+            display: flex;
+            flex-direction: column;                  
+                 
+        }
+        .flex-container > div {            
+            width: 94px; 
+            height: 94px;
+            margin: 0px;             
+            border: 3px solid black;
+            
+            
+        }
+        .flex-containerbig1 {
+            display: flex;               
+            margin: 0;
+            flex-direction:  row;       
+        }
+        .flex-containerbig1 > div {
+            width: 50px; 
+            height: 94px;
+            margin: 0px;
+        }
+        .flex-containerleft1 {
+            display: flex;
+            margin: 0;                               
+            flex-direction: column;
+            
+                     
+        }
+        .flex-containerleft1 > div {            
+            width: 20px; 
+            height: 20px;
+                        
+            background-color: black;
+            border-radius: 50%;
+        }
+        .flex-containerright1 {
+            display: flex;
+            margin: 0;                               
+            flex-direction: column-reverse;
+            align-items: flex-end;
+            justify-content: flex-start;                    
+        }
+        .flex-containerright1 > div {            
+            width: 20px; 
+            height: 20px;              
+            background-color: black;
+            border-radius: 50%;
+        }        
+        .flex-containerbig2 {
+            display: flex;
+            margin: 0;                               
+            flex-direction: column;
+
+        }
+        .flex-containerbig2 > div {             
+            width:  94px;
+            height: 31.33px;
+            margin: 0px;   
+                    
+        }
+        .flex-containerup {
+            display: flex;
+            margin: 0; 
+                                        
+                      
+        }
+        .flex-containerup > div {            
+            width: 20px; 
+            height: 20px;                      
+            background-color: black;
+            border-radius: 50%;
+        }
+        .flex-containermid {
+            display: flex;
+            margin: 0;                               
+            justify-content: center; 
+            
+            align-items: center;       
+        }
+        .flex-containermid > div {            
+            width: 20px; 
+            height: 20px;                          
+            background-color: black;
+            border-radius: 50%;
+        }
+        .flex-containerdow {
+            display: flex;
+            margin: 0;                               
+            align-items: flex-end;
+            justify-content: flex-end;      
+        }
+        .flex-containerdow > div {            
+            width: 20px; 
+            height: 20px;                         
+            background-color: black;
+            border-radius: 50%;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="flex-container">        
+        <div class="flex-containerbig1"> 
+            <div class="flex-containerleft1"> 
+                <div></div>          
+            </div>
+            
+            <div class="flex-containerright1">
+                 <div></div>
+                
+            </div>  
+        </div>             
+        <div class="flex-containerbig2">                     
+            <div class="flex-containerup"> 
+                <div>              
+                </div>
+            </div>
+            <div class="flex-containermid">
+                <div>                    
+                </div>                               
+            </div> 
+            <div class="flex-containerdow">
+                <div>                    
+                </div> 
+            </div> 
+        </div>       
+    </div>
+    
+</body>
+</html>

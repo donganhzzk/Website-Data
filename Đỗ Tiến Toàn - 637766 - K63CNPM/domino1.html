@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>domino1</title>
+    <style type="text/css">
+        .flex-container {
+            display: flex;
+            width: 212px;                    
+                 
+        }
+        .flex-container > div {            
+            width: 100px; 
+            height: 100px;
+            margin: 0px;             
+            border: 3px solid black;
+            
+            
+        }
+        .flex-container1 {
+            display: flex;
+            width: 240px;            
+            justify-content: center;
+            align-items: center;            
+        }
+        .flex-container1 > div {
+            width: 20px; 
+            height: 20px;
+            justify-content: center;              
+            background-color: black;
+            border-radius: 50%;
+        }
+        .flex-container2 {
+            display: flex;
+            margin: 0;                               
+            flex-direction: row;
+
+        }
+        .flex-container2 > div {            
+                      
+            width: 50px; 
+            height: 100px;
+            margin: 0px;             
+            
+        }
+        .flex-container3 {
+            display: flex;
+            margin: 0;                               
+            flex-direction: column;
+            justify-content: space-between;
+                     
+        }
+        .flex-container3 > div {            
+            width: 20px; 
+            height: 20px;
+            justify-content: center;              
+            background-color: black;
+            border-radius: 50%;
+        }
+        .flex-container4 {
+            display: flex;
+            margin: 0;                               
+            flex-direction: column;
+            align-items: flex-end;
+            justify-content: space-between;
+                     
+        }
+        .flex-container4 > div {            
+            width: 20px; 
+            height: 20px;
+            justify-content: center;              
+            background-color: black;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <div class="flex-container">        
+        <div class="flex-container1"> 
+                <div></div>
+        </div>             
+        <div class="flex-container2">                     
+            <div class="flex-container3"> 
+                <div></div>
+                <div></div>
+                <div></div>
+
+            </div>
+            
+            <div class="flex-container4">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>     
+        </div>
+
+        
+       
+    </div>
+    
+</body>
+</html>

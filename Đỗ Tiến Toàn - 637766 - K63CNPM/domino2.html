@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>domino2</title>
+    <style type="text/css">
+        .flex-container {
+            display: flex;
+                               
+                 
+        }
+        .flex-container > div {            
+            width: 94px; 
+            height: 94px;
+            margin: 0px;             
+            border: 3px solid black;
+            
+            
+        }
+        .flex-containerbig1 {
+            display: flex;               
+            margin: 0;
+            flex-direction:  row;       
+        }
+        .flex-containerbig1 > div {
+            width: 50px; 
+            height: 94px;
+            margin: 0px;
+        }
+        .flex-containerbig2 {
+            display: flex;
+            margin: 0;                               
+            flex-direction: row;
+
+        }
+        .flex-containerbig2 > div {             
+            width: 50px; 
+            height: 94px;
+            margin: 0px;           
+        }
+        .flex-containerleft1 {
+            display: flex;
+            margin: 0;                               
+            flex-direction: column;
+            
+                     
+        }
+        .flex-containerleft1 > div {            
+            width: 20px; 
+            height: 20px;
+                        
+            background-color: black;
+            border-radius: 50%;
+        }
+        .flex-containerright1 {
+            display: flex;
+            margin: 0;                               
+            flex-direction: column-reverse;
+            align-items: flex-end;
+                                 
+        }
+        .flex-containerright1 > div {            
+            width: 20px; 
+            height: 20px;              
+            background-color: black;
+            border-radius: 50%;
+        }
+        .flex-containerleft2 {
+            display: flex;
+            margin: 0;                               
+            flex-direction: column;
+            justify-content: space-between;
+                     
+        }
+        .flex-containerleft2 > div {            
+            width: 20px; 
+            height: 20px;                      
+            background-color: black;
+            border-radius: 50%;
+        }
+        .flex-containerright2 {
+            display: flex;
+            margin: 0;                               
+            flex-direction: column;
+            align-items: flex-end;
+            justify-content: space-between;
+                     
+        }
+        .flex-containerright2 > div {            
+            width: 20px; 
+            height: 20px;
+            justify-content: center;              
+            background-color: black;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <div class="flex-container">        
+        <div class="flex-containerbig1"> 
+            <div class="flex-containerleft1"> 
+                <div></div>          
+            </div>
+            
+            <div class="flex-containerright1">
+                 <div></div>
+                
+            </div>  
+        </div>             
+        <div class="flex-containerbig2">                     
+            <div class="flex-containerleft2"> 
+                <div></div>
+                <div></div>
+                
+
+            </div>
+            
+            <div class="flex-containerright2">
+                <div></div>
+                <div></div>                
+            </div>     
+        </div>       
+    </div>
+    
+</body>
+</html>
